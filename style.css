@@ -1,14 +1,18 @@
 /*html classes*/
 body {
+    /*
     background-color: #242582;
     color: #FAF9F6;
+    */
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 /*generic classes*/
+/*
 .my-link {
     color: #17d27b;
 }
+*/
 
 .section-title {
     font-size: 115%;
