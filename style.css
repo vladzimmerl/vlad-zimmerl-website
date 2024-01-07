@@ -26,8 +26,12 @@ body {
 @media all and (orientation:landscape) {
     .portrait-img {
         padding-top: 1%;
-        max-width: 38%;
+        max-width: 20%;
         max-height: 100%;
+        border-radius: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
     }
 }
 
