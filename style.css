@@ -23,17 +23,6 @@ body {
     text-align: center;
 }
 
-.page-header {
-    display: grid;
-    /*grid-template-columns: 1fr repeat(3, auto) 1fr;*/
-    grid-template-columns: 1fr 1fr 1fr;
-    justify-items: center;
-}
-
-.contact-container {
-    justify-self: left;
-}
-
 @media all and (orientation:landscape) {
     .portrait-img {
         padding-top: 1%;
@@ -44,12 +33,22 @@ body {
         margin-right: auto;
         display: block;
     }
+
+    .page-header {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-items: center;
+    }
+    
+    .contact-container {
+        justify-self: left;
+    }
 }
 
 @media all and (orientation:portrait) {
     .portrait-img {
         padding-top: 1%;
-        max-width: 70%;
+        max-width: 60%;
         max-height: 100%;
         border-radius: 50%;
         margin-left: auto;
